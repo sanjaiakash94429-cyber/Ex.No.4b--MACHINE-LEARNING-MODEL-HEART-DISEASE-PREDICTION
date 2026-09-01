@@ -207,7 +207,29 @@ plt.title("Confusion Matrix - Random Forest")
 
 plt.show()
 
-## CONCLUSION
-Thus, machine learning classification models were successfully applied for heart disease prediction, and their performance was compared using standard classification evaluation metrics.
+## THEORY
 
+Machine Learning Classification is a supervised learning technique used to predict a category or class based on given input data. Heart Disease Prediction is an important application of machine learning in healthcare, where a model is trained to predict whether a person is likely to have heart disease based on different health-related features.
 
+A heart disease dataset may contain features such as age, blood pressure, cholesterol level, chest pain type, maximum heart rate, blood sugar level, and other clinical parameters. These features are provided as input to the machine learning model, while the target variable represents the presence or absence of heart disease.
+
+In this experiment, different classification algorithms such as Logistic Regression, Decision Tree, and Random Forest are used to develop prediction models. The dataset is divided into training and testing data. The training data is used to learn patterns from the dataset, while the testing data is used to evaluate the trained models.
+
+The performance of classification models can be evaluated using suitable metrics such as Accuracy, Precision, Recall, F1-Score, and Confusion Matrix. Accuracy measures the overall number of correct predictions. Precision measures how many predicted positive cases are actually positive. Recall measures how many actual positive cases are correctly identified. F1-Score provides a balance between precision and recall.
+
+Comparing multiple classification models helps in identifying which model performs better for the given dataset.
+
+## WORKING PRINCIPLE
+
+The heart disease dataset is first loaded into Python and the required preprocessing steps are performed. The input features are separated from the target variable, which indicates whether heart disease is present or absent.
+
+The dataset is divided into training and testing sets. Different classification algorithms are then trained using the training dataset. Each model learns the relationship between the input health-related features and the target class.
+
+After training, the models are tested using unseen testing data. Each model predicts whether the given input represents a positive or negative heart disease class.
+
+The predicted results are compared with the actual results using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix. The performance of the different classification algorithms is then compared, and the model with suitable evaluation results can be selected.
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/e05c0ddb-f5e2-49e7-a7dc-104e2a18bb0d" />
+
+## RESULT
+Thus, a Heart Disease Prediction model using machine learning classification algorithms was developed successfully. Logistic Regression, Decision Tree, and Random Forest models were trained and their performance was compared using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix. The model with the most suitable evaluation performance can be selected for the given dataset.
